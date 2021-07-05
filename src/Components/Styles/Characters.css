@@ -1,0 +1,13 @@
+.button-see-more {
+  margin: 15px;
+  height: 80px;
+  outline: none;
+  font-size: 3rem;
+  border: none;
+  border-radius: 40px;
+}
+.button-see-more:hover {
+  background: #6495ed;
+  color: white;
+  transition: 1s;
+}

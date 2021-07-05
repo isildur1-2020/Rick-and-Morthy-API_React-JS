@@ -1,0 +1,28 @@
+html {
+  font-size: 7px;
+}
+body {
+  background: #008b8b;
+  font-family: "Otomanopee One", sans-serif;
+}
+.grilla {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-areas:
+    "title title"
+    "button button";
+}
+.title {
+  grid-area: title;
+  font-size: 8rem;
+  text-align: center;
+}
+@media (max-width: 992px) {
+  html {
+    font-size: 7px;
+  }
+  .grilla {
+    display: flex;
+    flex-direction: column;
+  }
+}

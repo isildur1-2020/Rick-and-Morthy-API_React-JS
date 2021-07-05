@@ -1,0 +1,20 @@
+.square {
+  margin: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.img-square {
+  border-radius: 10px;
+  -webkit-box-shadow: 5px 5px 27px 5px #000000;
+  box-shadow: 5px 5px 27px 5px #000000;
+}
+.info-square {
+  margin-top: 35px;
+  line-height: 35px;
+  font-size: 3rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
