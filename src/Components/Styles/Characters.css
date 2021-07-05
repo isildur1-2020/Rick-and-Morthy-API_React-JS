@@ -1,13 +1,16 @@
 .button-see-more {
+  position: sticky;
+  bottom: 10px;
   margin: 15px;
   height: 80px;
   outline: none;
-  font-size: 3rem;
+  font-size: 3.5rem;
+  color: white;
+  background-color: #6495ed;
   border: none;
   border-radius: 40px;
 }
 .button-see-more:hover {
-  background: #6495ed;
-  color: white;
-  transition: 1s;
+  transition: 0.8s;
+  background-color: #00ffff;
 }
